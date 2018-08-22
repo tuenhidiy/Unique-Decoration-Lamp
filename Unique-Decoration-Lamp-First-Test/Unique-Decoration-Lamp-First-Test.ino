@@ -136,10 +136,6 @@ void LED(int Y, int X, int R, int G, int B)
   R = constrain(R, 0, (1 << BAM_RESOLUTION) - 1);
   G = constrain(G, 0, (1 << BAM_RESOLUTION) - 1);
   B = constrain(B, 0, (1 << BAM_RESOLUTION) - 1);
-  
-  //int WhichByte = Y;
-  
-  //int WhichBit = X ;
 
     for (byte BAM = 0; BAM < BAM_RESOLUTION; BAM++) 
     {
